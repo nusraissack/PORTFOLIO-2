@@ -18,5 +18,12 @@
     --norma-font:2rem;
     --neon-box-shadow:0 0 .5rem #12f7ff;
     --h2-font:3rem;
-    
+    --font-neon-text-shadow:0 0 10px rgba(18,247,255,0.3),
+0 0 10px rgba(18,247,255,0.3),
+0 0 10px rgba(18,247,255,0.3),
+0 0 10px rgba(18,247,255,0.3),
+0 0 10px rgba(18,247,255,0.3),
+0 0 10px rgba(18,247,255,0.3),
+0 0 10px rgba(18,247,255,0.3),
+0 0 10px rgba(18,247,255,0.3),
 }
