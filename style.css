@@ -59,4 +59,9 @@ span{
 .navlist a{
     color: var(--text-color);
     font-weight: 500;
+    padding: 10px 20px;
+}
+
+.navlist a:hover{
+    color: var(--hover-color);
 }
