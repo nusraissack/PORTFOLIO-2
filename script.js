@@ -1,2 +1,4 @@
 let words = document.querySelectorAll(".word");
-words.forEach()
+words.forEach((word)=>{
+    let let 
+})
