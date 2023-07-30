@@ -105,4 +105,10 @@ section{
 
 .home-content h1{
     font-size: var(--big-font);
+    font-weight: 700;
+}
+
+.change-text{
+    font-size: 1.5rem;
+    font-weight: 600;
 }
