@@ -114,5 +114,7 @@ section{
 }
 
 .change-text h3{
-    
+    display: inline-flex;
+    margin: 0;
+    vertical-align: top;
 }
