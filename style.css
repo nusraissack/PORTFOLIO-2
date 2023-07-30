@@ -101,5 +101,8 @@ section{
 
 .home-content{
     max-width: 600px;
-    
+}
+
+.home-content h1{
+    font-size: var(--big-font);
 }
