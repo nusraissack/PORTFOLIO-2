@@ -95,4 +95,11 @@ section{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    grid-gap: 4em;
+}
+
+.home-content{
+    max-width: 600px;
+    
 }
