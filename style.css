@@ -84,3 +84,7 @@ span{
     color: var(--secon-bg-color);
     display: none;
 }
+
+section{
+    padding: 100px 10%;
+}
