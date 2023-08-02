@@ -9,3 +9,5 @@ words.forEach((word)=>{
        word.append(span);
     });
 });
+
+let curentWordIndex = 0;
