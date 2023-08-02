@@ -11,3 +11,4 @@ words.forEach((word)=>{
 });
 
 let curentWordIndex = 0;
+let maxWordIndex = "1";
