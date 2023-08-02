@@ -5,5 +5,7 @@ words.forEach((word)=>{
     letters.forEach((letter)=>{
        let span = document.createElement("span");
        span.textContent = letter;
-    })
-})
+       span.className = "letter";
+       word.append(span);
+    });
+});
