@@ -26,6 +26,9 @@ let changeText = ()=>{
     nextWord.style.opacity="1";
     Array.from(nextWord.children).forEach((letter,i)=>{
         letter.className = "letter behind";
-    }
-    )
+        setTimeout(()=>{
+            letter.className = "letter in";
+        },340 + i * 80);
+    });
+    curentWordIndex = curentWordIndex === maxWordIndex ?
 }
