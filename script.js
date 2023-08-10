@@ -16,5 +16,7 @@ words[curentWordIndex].style.opacity = "1";
 
 let changeText = ()=>{
     let currentWord = words[currentWordIndex];
-    let
+    let nextWord = currentWordIndex === maxWordIndex ? words[0] : words[currentWordIndex = + 1];
+
+    Array.from
 }
