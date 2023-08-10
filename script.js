@@ -20,9 +20,7 @@ let changeText = ()=>{
 
     Array.from(currentWord.children).forEach((letter,i)=>{
         setTimeout(()=>{
-            
-        }
-        )
-    }
-    )
+            letter.className = "letter out";
+        },i *80);
+    });
 }
