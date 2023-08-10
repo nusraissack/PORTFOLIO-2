@@ -30,5 +30,5 @@ let changeText = ()=>{
             letter.className = "letter in";
         },340 + i * 80);
     });
-    curentWordIndex = curentWordIndex === maxWordIndex ?
+    curentWordIndex = curentWordIndex === maxWordIndex ? 0 : curentWordIndex + 1;
 }
