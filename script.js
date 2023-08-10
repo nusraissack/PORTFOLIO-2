@@ -23,4 +23,9 @@ let changeText = ()=>{
             letter.className = "letter out";
         },i *80);
     });
+    nextWord.style.opacity="1";
+    Array.from(nextWord.children).forEach((letter,i)=>{
+        
+    }
+    )
 }
