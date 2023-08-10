@@ -18,5 +18,11 @@ let changeText = ()=>{
     let currentWord = words[currentWordIndex];
     let nextWord = currentWordIndex === maxWordIndex ? words[0] : words[currentWordIndex = + 1];
 
-    Array.from
+    Array.from(currentWord.children).forEach((letter,i)=>{
+        setTimeout(()=>{
+            
+        }
+        )
+    }
+    )
 }
