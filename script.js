@@ -25,7 +25,7 @@ let changeText = ()=>{
     });
     nextWord.style.opacity="1";
     Array.from(nextWord.children).forEach((letter,i)=>{
-        
+        letter.className = "letter behind";
     }
     )
 }
